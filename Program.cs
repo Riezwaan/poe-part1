@@ -15,7 +15,7 @@ class CyberSecurityBot
         Console.Write("what's your name? ");
         string userName = Console.ReadLine().Trim();
 
-        // if name is empty, it will just proceed without validation
+        // if name is empty, it will just proceed without the validation
         Console.WriteLine($"\ncybersecurity bot: hello, {userName}! ask me cybersecurity-related questions (type 'exit' to quit).");
 
         while (true)
